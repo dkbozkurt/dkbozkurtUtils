@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine.EventSystems;
 
 namespace DKBozkurt.Utils
@@ -279,6 +280,23 @@ namespace DKBozkurt.Utils
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, _maxRayDistance,layerMask) && Input.GetMouseButtonDown(0)) return hit.transform.gameObject;
             return null;
+        }
+
+        /// <summary>
+        /// Detect UI elements by sending ray from the camera to game and return first detected ui element gameObject.
+        /// </summary>
+        /// <param name="layerMaskIndex">Layer mask index for UI</param>
+        /// <returns>First Detected UI Element</returns>
+        public static GameObject GetUIInfo(int layerMaskIndex = 5)
+        {
+            var eventData = new PointerEventData(EventSystem.current);
+            eventData.position = Input.mousePosition;
+            var results = new List<RaycastResult>();
+            EventSystem.current.RaycastAll(eventData, results);
+
+            if (results.Where(r => r.gameObject.layer == layerMaskIndex).Count() <= 0) return null;
+            
+            return results[0].gameObject;
         }
         
     }
