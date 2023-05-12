@@ -6,25 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4667f29-22a7-48db-ab73-e1cccd305ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Debug.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Debug.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Events.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Events.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/FunctionCaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/FunctionCaller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Helpers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Helpers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/MouseInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/MouseInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Objects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Objects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/UtilsTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/UtilsTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/UtilsTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/UtilsTest.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +18,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/84/17a22211/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/e7/678d0680/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Test/UtilitiesTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,7 +89,7 @@
       <updated>1672386837485</updated>
       <workItem from="1672386841681" duration="191000" />
       <workItem from="1677069891393" duration="2302000" />
-      <workItem from="1683919307384" duration="772000" />
+      <workItem from="1683919307384" duration="3605000" />
     </task>
     <servers />
   </component>

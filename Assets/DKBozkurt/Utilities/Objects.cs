@@ -63,5 +63,26 @@ namespace DKBozkurt.Utilities
             foreach (Transform child in t) { Object.Destroy(child.gameObject); }
         }
         
+        /// <summary>
+        /// Resets the transform properties
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="isLocalTransform"> Identifies if operation going to be in local space</param>
+        public static void Reset(this Transform transform, bool isLocalTransform = true )
+        {
+            if (isLocalTransform)
+            {
+                transform.localPosition = Vector3.zero;
+                transform.localRotation = Quaternion.Euler(Vector3.zero);
+                transform.localScale = Vector3.one;
+                return;    
+            }
+            
+            transform.position = Vector3.zero;
+            transform.rotation = Quaternion.Euler(Vector3.zero);
+            transform.localScale = Vector3.one;
+        }
+        
+        
     }
 }

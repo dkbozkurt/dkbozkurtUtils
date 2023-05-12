@@ -2,11 +2,12 @@
 //      github.com/dkbozkurt
 
 using System.Collections;
+using DKBozkurt.Utilities;
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKBozkurt.Test
 {
-    public class UtilsTest : MonoBehaviour
+    public class UtilitiesTest : MonoBehaviour
     {
         [SerializeField] private Transform _testObject;
         private void Start()
