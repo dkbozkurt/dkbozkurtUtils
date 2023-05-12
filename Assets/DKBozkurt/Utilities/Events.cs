@@ -2,11 +2,10 @@
 //      github.com/dkbozkurt
 
 using System;
-using UnityEngine;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
-    public static partial class DKBozkurtUtils
+    public static partial class DKBozkurtUtilities
     {
         public static class Events
         {

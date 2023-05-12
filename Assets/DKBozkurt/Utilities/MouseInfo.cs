@@ -1,17 +1,17 @@
 // Dogukan Kaan Bozkurt
 //      github.com/dkbozkurt
 
-using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
     /// <summary>
     /// My own Utils class for getting Mouse Info.
     /// </summary>
-    public static partial class DKBozkurtUtils
+    public static partial class DKBozkurtUtilities
     {
         private static readonly int _maxRayDistance = 1000;
         /// <summary>

@@ -4,11 +4,10 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
-    public static partial class DKBozkurtUtils
+    public static partial class DKBozkurtUtilities
     {
         private static Camera _camera;
         

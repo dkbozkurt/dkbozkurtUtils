@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4667f29-22a7-48db-ab73-e1cccd305ce7" name="Changes" comment="" />
+    <list default="true" id="b4667f29-22a7-48db-ab73-e1cccd305ce7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Debug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Debug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Events.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Events.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/FunctionCaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/FunctionCaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Helpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Helpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/MouseInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/MouseInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Objects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/Objects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/UtilsTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utils/UtilsTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,16 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
@@ -72,14 +93,27 @@
       <updated>1672386837485</updated>
       <workItem from="1672386841681" duration="191000" />
       <workItem from="1677069891393" duration="2302000" />
+      <workItem from="1683919307384" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

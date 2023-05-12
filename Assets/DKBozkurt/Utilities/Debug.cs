@@ -4,9 +4,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
-    public static partial class DKBozkurtUtils
+    public static partial class DKBozkurtUtilities
     {
         /// <summary>
         /// Draw debug circle
@@ -18,8 +18,8 @@ namespace DKBozkurt.Utils
         /// <param name="divisions"></param>
         public static void DebugDrawCircle(Vector3 center, float radius, Color color, float duration, int divisions) {
             for (int i = 0; i <= divisions; i++) {
-                Vector3 vec1 = center + DKBozkurtUtils.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * i);
-                Vector3 vec2 = center + DKBozkurtUtils.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * (i + 1));
+                Vector3 vec1 = center + DKBozkurtUtilities.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * i);
+                Vector3 vec2 = center + DKBozkurtUtilities.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * (i + 1));
                 Debug.DrawLine(vec1, vec2, color, duration);
             }
         }

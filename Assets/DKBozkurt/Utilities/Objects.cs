@@ -3,14 +3,14 @@
 
 using UnityEngine;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
     /// <summary>
     /// My own Utils class for Creating.
     /// 
     /// </summary>
     
-    public static partial class DKBozkurtUtils 
+    public static partial class DKBozkurtUtilities 
     {
         
         /// <summary>

@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DKBozkurt.Utils
+namespace DKBozkurt.Utilities
 {
-    public static partial class DKBozkurtUtils
+    public static partial class DKBozkurtUtilities
     {
         /// <summary>
         /// Calls function on every Update until it returns true.
