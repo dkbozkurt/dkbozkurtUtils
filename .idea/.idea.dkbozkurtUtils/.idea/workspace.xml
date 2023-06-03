@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b4667f29-22a7-48db-ab73-e1cccd305ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/UtilsTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/UtilsTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityPackages/DKBozkurtUtils.unitypackage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityPackages/DKBozkurtUtils.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +27,15 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/b1/2680e61c/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/69/ce620938/SpriteRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/ec/2eb704eb/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/84/17a22211/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/e7/678d0680/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/55/2240b160/WaitWhile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Test/UtilitiesTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -90,6 +95,7 @@
       <workItem from="1672386841681" duration="191000" />
       <workItem from="1677069891393" duration="2302000" />
       <workItem from="1683919307384" duration="3605000" />
+      <workItem from="1685797907349" duration="1137000" />
     </task>
     <servers />
   </component>
@@ -109,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
