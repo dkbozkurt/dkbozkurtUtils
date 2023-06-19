@@ -350,5 +350,33 @@ namespace DKBozkurt.Utilities
             return list;
         }
 
+        /// <summary>
+        /// Returns an array with unique numbers between the given range and array size.
+        /// </summary>
+        /// <param name="returnArraySize">Return random numbers array length.</param>
+        /// <param name="randomIndexRange">Assignable numbers range.</param>
+        /// <param name="randomNumStartIndex">Assignable numbers starting value.</param>
+        /// <returns></returns>
+        public static int[] GetUniqueRandomIndexes(int returnArraySize,int randomIndexRange, int randomNumStartIndex =0)
+        {
+            if (randomIndexRange < returnArraySize)
+            {
+                Debug.LogError(" Random Indexn Range must be greater than Return Array Size!");
+                return null;
+            }
+            HashSet<int> uniqueNumbers = new HashSet<int>();
+
+            while (uniqueNumbers.Count < returnArraySize)
+            {
+                int randomNumber = UnityEngine.Random.Range(randomNumStartIndex, randomIndexRange);
+                uniqueNumbers.Add(randomNumber);
+            }
+
+            int[] randomNumbersArray = new int[returnArraySize];
+            uniqueNumbers.CopyTo(randomNumbersArray);
+
+            return randomNumbersArray;
+        }
+
     }
 }
