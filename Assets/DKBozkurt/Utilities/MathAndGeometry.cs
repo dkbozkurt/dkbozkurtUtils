@@ -65,5 +65,14 @@ namespace DKBozkurt.Utilities
             return Mathf.Max(v, min);
         }
 
+        /// <summary>
+        /// Returns a random point position on the sphere of the given radius.
+        /// </summary>
+        /// <param name="sphereRadius">Sphere radius</param>
+        /// <returns></returns>
+        public static Vector3 GetRandomPointOnSphere(float sphereRadius)
+        {
+            return Random.onUnitSphere * sphereRadius;
+        }
     }
 }

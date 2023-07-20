@@ -82,7 +82,29 @@ namespace DKBozkurt.Utilities
             transform.rotation = Quaternion.Euler(Vector3.zero);
             transform.localScale = Vector3.one;
         }
+
+        /// <summary>
+        /// Makes the object's down vector point at the target transform
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="targetTransform"></param>
+        public static void LookTargetWithDownVector(this Transform transform, Transform targetTransform)
+        {
+            transform.LookTargetWithDownVector(targetTransform.position);
+        }
         
-        
+        /// <summary>
+        /// Makes the object's down vector point at the target position
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="targetPosition"></param>
+        public static void LookTargetWithDownVector(this Transform transform, Vector3 targetPosition)
+        {
+            Vector3 directionToTarget = (targetPosition - transform.position).normalized;
+            transform.rotation = Quaternion.FromToRotation(transform.up, -directionToTarget)
+                * transform.rotation;
+
+        }
+
     }
 }
