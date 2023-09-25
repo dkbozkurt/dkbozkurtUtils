@@ -1,10 +1,7 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
-using DKBozkurt.Utilities;
+using DKB.Utilities;
 using UnityEngine;
 
-namespace DKBozkurt.Test
+namespace DKB.Test
 {
     public class MainTest : MonoBehaviour
     {

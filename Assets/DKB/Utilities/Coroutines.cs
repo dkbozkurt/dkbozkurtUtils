@@ -1,13 +1,10 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System;
 using System.Collections;
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
-    public static partial class DKBozkurtUtilities
+    public static partial class DkbUtils
     {
         /// <summary>
         /// Waits for a while then executes the callback.

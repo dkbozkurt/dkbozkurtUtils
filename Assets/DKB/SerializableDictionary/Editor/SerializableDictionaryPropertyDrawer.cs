@@ -1,14 +1,11 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using SerializableDictionary.Runtime;
+using DKB.SerializableDictionary.Runtime;
 using UnityEditor;
 using UnityEngine;
 
-namespace SerializableDictionary.Editor
+namespace DKB.SerializableDictionary.Editor
 {
 	[CustomPropertyDrawer(typeof(SerializableDictionaryBase), true)]
 #if NET_4_6 || NET_STANDARD_2_0

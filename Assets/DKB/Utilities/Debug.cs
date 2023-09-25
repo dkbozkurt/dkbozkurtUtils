@@ -1,12 +1,9 @@
-//  Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
-    public static partial class DKBozkurtUtilities
+    public static partial class DkbUtils
     {
         /// <summary>
         /// Draw debug circle
@@ -18,8 +15,8 @@ namespace DKBozkurt.Utilities
         /// <param name="divisions"></param>
         public static void DebugDrawCircle(Vector3 center, float radius, Color color, float duration, int divisions) {
             for (int i = 0; i <= divisions; i++) {
-                Vector3 vec1 = center + DKBozkurtUtilities.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * i);
-                Vector3 vec2 = center + DKBozkurtUtilities.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * (i + 1));
+                Vector3 vec1 = center + global::DKB.Utilities.DkbUtils.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * i);
+                Vector3 vec2 = center + global::DKB.Utilities.DkbUtils.ApplyRotationToVector(new Vector3(0, 1) * radius, (360f / divisions) * (i + 1));
                 Debug.DrawLine(vec1, vec2, color, duration);
             }
         }

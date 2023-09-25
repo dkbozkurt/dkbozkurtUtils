@@ -1,18 +1,15 @@
-//  Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
+using DKB.Utilities;
 using System.Collections;
-using DKBozkurt.Utilities;
 using UnityEngine;
 
-namespace DKBozkurt.Test
+namespace DKB.Test
 {
     public class UtilitiesTest : MonoBehaviour
     {
         [SerializeField] private Transform _testObject;
         private void Start()
         {
-            DKBozkurtUtilities.Events.OnScoreUpdated.Invoke(1);
+            DkbUtils.Events.OnScoreUpdated.Invoke(1);
 
             //StartCoroutine(NonAllocatingWaitTest());
         
@@ -20,18 +17,18 @@ namespace DKBozkurt.Test
 
         private void Update()
         {
-            // _testObject.transform.position =DKBozkurtUtils.GetMouseWorldPositionWithDistance(10);
-            _testObject.transform.position =DKBozkurtUtilities.GetMousePositionByCreatingPlaneOnZAxis();
+            // _testObject.transform.position =DkbUtils.GetMouseWorldPositionWithDistance(10);
+            _testObject.transform.position =DkbUtils.GetMousePositionByCreatingPlaneOnZAxis();
         }
 
         private void OnEnable()
         {
-            DKBozkurtUtilities.Events.OnScoreUpdated.AddListener(TestCustomScoreEventMethod);
+            DkbUtils.Events.OnScoreUpdated.AddListener(TestCustomScoreEventMethod);
         }
 
         private void OnDisable()
         {
-            DKBozkurtUtilities.Events.OnScoreUpdated.RemoveListener(TestCustomScoreEventMethod);
+            DkbUtils.Events.OnScoreUpdated.RemoveListener(TestCustomScoreEventMethod);
         }
 
         private void TestCustomScoreEventMethod(int score)
@@ -43,7 +40,7 @@ namespace DKBozkurt.Test
         {
             for (int i = 0; i < 3; i++)
             {
-                yield return DKBozkurtUtilities.GetWait(5f);
+                yield return DkbUtils.GetWait(5f);
                 Debug.Log("Dogukan");
             }
         }

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using UnityEngine;
 
-namespace SerializableDictionary.Runtime
+namespace DKB.SerializableDictionary.Runtime
 {
 
 	public abstract class SerializableDictionaryBase

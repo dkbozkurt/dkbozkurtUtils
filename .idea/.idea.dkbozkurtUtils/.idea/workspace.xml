@@ -6,13 +6,53 @@
   <component name="ChangeListManager">
     <list default="true" id="b4667f29-22a7-48db-ab73-e1cccd305ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dkbozkurtUtils/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIf.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIfAttributeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIfAttributeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIfAttributeTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Attributes/ShowIfAttributeTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Editor/SerializableDictionaryPropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Runtime/SerializableDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Runtime/SerializableDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Runtime/SerializableHashSet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Runtime/SerializableHashSet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Test.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Test/IntStringDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Test/IntStringDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Test/SerializableDictionaryTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/SerializableDictionary/Test/SerializableDictionaryTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Test.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Test/MainTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Test/MainTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Test/UtilitiesTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Test/UtilitiesTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Coroutines.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Coroutines.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Events.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Events.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/FunctionCaller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/FunctionCaller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Helpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Helpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MouseInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MouseInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Objects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +71,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/b1/2680e61c/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/69/ce620938/SpriteRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/ec/2eb704eb/WaitUntil.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/MathAndGeometry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/84/17a22211/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/e7/678d0680/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Utilities/Debug.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4014a86cbefb4944b2b6c9211c8fd2fc159a00/55/2240b160/WaitWhile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DKBozkurt/Test/UtilitiesTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Bk/ASD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DKB/Utilities/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2Jcofl5urLXI6yYFJFOgQBoisXi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -130,6 +163,7 @@
       <workItem from="1685797907349" duration="1137000" />
       <workItem from="1687183770799" duration="735000" />
       <workItem from="1689853698945" duration="1085000" />
+      <workItem from="1695651972564" duration="1674000" />
     </task>
     <servers />
   </component>

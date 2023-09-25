@@ -1,16 +1,13 @@
-//  Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
     /// <summary>
     /// My own Utils class for Creating.
     /// 
     /// </summary>
     
-    public static partial class DKBozkurtUtilities 
+    public static partial class DkbUtils 
     {
         
         /// <summary>
@@ -105,6 +102,8 @@ namespace DKBozkurt.Utilities
                 * transform.rotation;
 
         }
+        
+        
 
     }
 }

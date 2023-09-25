@@ -1,6 +1,3 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 #if NET_4_6 || NET_STANDARD_2_0
 using System;
 using System.Collections;
@@ -8,7 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using UnityEngine;
 
-namespace SerializableDictionary.Runtime
+namespace DKB.SerializableDictionary.Runtime
 {
 	public abstract class SerializableHashSetBase
 	{

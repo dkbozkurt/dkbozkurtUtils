@@ -1,14 +1,11 @@
-﻿// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace DKBozkurt.Attributes
+namespace DKB.Attributes
 {
     /// <summary>
     /// Ref : https://stackoverflow.com/questions/58441744/how-to-enable-disable-a-list-in-unity-inspector-using-a-bool

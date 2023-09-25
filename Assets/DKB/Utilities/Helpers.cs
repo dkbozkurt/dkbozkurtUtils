@@ -1,13 +1,10 @@
-//  Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
-    public static partial class DKBozkurtUtilities
+    public static partial class DkbUtils
     {
         private static Camera _camera;
         
@@ -376,6 +373,23 @@ namespace DKBozkurt.Utilities
             uniqueNumbers.CopyTo(randomNumbersArray);
 
             return randomNumbersArray;
+        }
+
+        /// <summary>
+        /// Converts transform array`s positions to Vector3 array and returns it.
+        /// </summary>
+        /// <param name="thisTransformArray">Target transform array to be converted to Vector3[] position array.</param>
+        /// <returns>Vector3 position array.</returns>
+        public static Vector3[] ConvertToPositionArray(this Transform[] thisTransformArray)
+        {
+            Vector3[] positionArray = new Vector3[thisTransformArray.Length];
+
+            for (int i = 0; i < thisTransformArray.Length; i++)
+            {
+                positionArray[i] = thisTransformArray[i].position;
+            }
+
+            return positionArray;
         }
 
     }

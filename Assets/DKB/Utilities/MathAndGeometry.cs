@@ -1,11 +1,8 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
-    public static partial class DKBozkurtUtilities
+    public static partial class DkbUtils
     {
         /// <summary>
         /// To get a random position between two circles difference on XY plane.

@@ -1,10 +1,7 @@
-// Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System;
 using UnityEngine;
 
-namespace DKBozkurt.Attributes
+namespace DKB.Attributes
 {
     public enum ConditionOperator
     {

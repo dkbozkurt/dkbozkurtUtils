@@ -1,13 +1,10 @@
-//  Dogukan Kaan Bozkurt
-//      github.com/dkbozkurt
-
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DKBozkurt.Utilities
+namespace DKB.Utilities
 {
-    public static partial class DKBozkurtUtilities
+    public static partial class DkbUtils
     {
         /// <summary>
         /// Calls function on every Update until it returns true.
