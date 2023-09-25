@@ -102,8 +102,26 @@ namespace DKB.Utilities
                 * transform.rotation;
 
         }
-        
-        
+
+        /// <summary>
+        /// It gives the UI point corresponding to the point where a 3D and 2D object is located on the scene.
+        /// </summary>
+        /// <param name="targetTransform">Object to get corresponding UI point</param>
+        /// <returns>UI location</returns>
+        public static Vector3 GetScreenPositionOfObject(this Transform targetTransform)
+        {
+            return targetTransform.GetScreenPositionOfObject();
+        }
+
+        /// <summary>
+        /// It gives the UI point corresponding to the point where a 3D and 2D object is located on the scene.
+        /// </summary>
+        /// <param name="targetTransform">Object to get corresponding UI point</param>
+        /// <returns>UI location</returns>
+        public static Vector3 GetScreenPositionOfObject(this Vector3 targetTransformPosition)
+        {
+            return Camera.WorldToScreenPoint(targetTransformPosition);
+        }
 
     }
 }
